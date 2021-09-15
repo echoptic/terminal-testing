@@ -1,0 +1,12 @@
+[package]
+name = "terminal-testing"
+version = "0.1.0"
+edition = "2018"
+
+[workspace]
+members = ["editor"]
+
+[dependencies]
+crossterm = "*"
+
+editor = { path = "editor" }
